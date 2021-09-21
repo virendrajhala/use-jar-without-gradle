@@ -1,6 +1,6 @@
 package org.fretron.withoutgradle
+
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.fasterxml.jackson.module.kotlin.*
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 
 data class User(val id: Int,
